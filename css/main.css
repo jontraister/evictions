@@ -100,7 +100,7 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     margin: 0 auto 0 auto;
-    width: 760px;
+    width: 780px;
     background-image:url('../img/evictions_bg.gif');
     background-repeat: repeat-x;
     background-color: #fff;
@@ -131,7 +131,7 @@ h2 {
     color: #1a9000;
     font-size: 14px;
     font-weight: bold;
-    padding: 20px 0 0 10px;
+    padding: 20px 0 20px 10px;
     margin: 0px !important;
 }
 
@@ -238,8 +238,9 @@ h4 {
 
 .entry_col_1 {
     width: 500px;
-    height: 150px;
     float: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .entry_details_col_1 {
@@ -262,6 +263,24 @@ h4 {
     margin: -21px 0 0 585px;
     font-family: 'Open Sans', sans-serif;
     font-size: 10px;
+}
+
+.column_small {
+    font-weight: bold;
+    width: 70px;
+}
+
+.column_large {
+    font-weight: bold;
+    width: 170px;
+}
+
+.column_entry1 {
+    font-weight: bold;
+    width: 110px;
+}
+.column_entry2 {
+    width: 194px;
 }
 
 
@@ -392,76 +411,4 @@ h4 {
        (-webkit-min-device-pixel-ratio: 1.25),
        (min-resolution: 120dpi) {
     /* Style adjustments for high resolution devices */
-}
-
-/* ==========================================================================
-   Print styles.
-   Inlined to avoid required HTTP connection: h5bp.com/r
-   ========================================================================== */
-
-@media print {
-    * {
-        background: transparent !important;
-        color: #000 !important; /* Black prints faster: h5bp.com/s */
-        box-shadow: none !important;
-        text-shadow: none !important;
-    }
-
-    a,
-    a:visited {
-        text-decoration: underline;
-    }
-
-    a[href]:after {
-        content: " (" attr(href) ")";
-    }
-
-    abbr[title]:after {
-        content: " (" attr(title) ")";
-    }
-
-    /*
-     * Don't show links for images, or javascript/internal links
-     */
-
-    .ir a:after,
-    a[href^="javascript:"]:after,
-    a[href^="#"]:after {
-        content: "";
-    }
-
-    pre,
-    blockquote {
-        border: 1px solid #999;
-        page-break-inside: avoid;
-    }
-
-    thead {
-        display: table-header-group; /* h5bp.com/t */
-    }
-
-    tr,
-    img {
-        page-break-inside: avoid;
-    }
-
-    img {
-        max-width: 100% !important;
-    }
-
-    @page {
-        margin: 0.5cm;
-    }
-
-    p,
-    h2,
-    h3 {
-        orphans: 3;
-        widows: 3;
-    }
-
-    h2,
-    h3 {
-        page-break-after: avoid;
-    }
 }
