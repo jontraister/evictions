@@ -260,7 +260,7 @@ h4 {
 
 .data_set {
     position: relative;
-    margin: -21px 0 0 585px;
+    margin: -21px 0 0 550px;
     font-family: 'Open Sans', sans-serif;
     font-size: 10px;
 }
@@ -302,14 +302,6 @@ h4 {
 /*
  * Image replacement
  */
-
-.ir {
-    background-color: transparent;
-    border: 0;
-    overflow: hidden;
-    /* IE 6/7 fallback */
-    *text-indent: -9999px;
-}
 
 .ir:before {
     content: "";
@@ -391,10 +383,6 @@ h4 {
  * For IE 6/7 only
  * Include this rule to trigger hasLayout and contain floats.
  */
-
-.clearfix {
-    *zoom: 1;
-}
 
 /* ==========================================================================
    EXAMPLE Media Queries for Responsive Design.
